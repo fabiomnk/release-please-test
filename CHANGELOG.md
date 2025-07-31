@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/fabiomnk/release-please-test/compare/package-v1.0.2...package-v1.0.3) (2025-07-31)
+
+
+### Bug Fixes
+
+* hotfix 1.0.2 ([49340fd](https://github.com/fabiomnk/release-please-test/commit/49340fd94a4ffe6fe6d28ae491173072c830cb83))
+
 ## [1.0.2](https://github.com/fabiomnk/release-please-test/compare/package-v1.0.1...package-v1.0.2) (2025-07-31)
 
 
