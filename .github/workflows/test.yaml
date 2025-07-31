@@ -4,7 +4,8 @@ name: Test
 on:
   push:
     branches: ["main","hotfix/*"]
-
+    paths-ignore: 
+      - '.github/**'
 jobs:
   release-please:
     runs-on: ubuntu-latest
