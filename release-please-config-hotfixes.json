@@ -1,8 +1,8 @@
 {
-  "versioning-strategy": "always-bump-patch",
   "packages": {
     ".": {
       "package-name": "package",
+      "versioning-strategy": "always-bump-patch",
       "release-type": "node",
       "draft": false,
       "prerelease": false,
