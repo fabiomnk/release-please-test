@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.0.0](https://github.com/fabiomnk/release-please-test/compare/package-v1.2.0...package-v2.0.0) (2025-07-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* breaking! rotto tutto!
+
+### Features
+
+* 1 ([13c3c2f](https://github.com/fabiomnk/release-please-test/commit/13c3c2fc983069a795b2e6941c62d3805de7cb3c))
+* 2 ([04af68d](https://github.com/fabiomnk/release-please-test/commit/04af68dc8b2998204302e541a582d6ca552b34c8))
+
+
+### Bug Fixes
+
+* 3 ([3168c64](https://github.com/fabiomnk/release-please-test/commit/3168c644641436a174368cb193a1dd1a749e64fd))
+* breaking! rotto tutto! ([341a43a](https://github.com/fabiomnk/release-please-test/commit/341a43a602e0f44ec9ee6e48cf467cd5df8686f7))
+
 ## [1.2.0](https://github.com/fabiomnk/release-please-test/compare/package-v1.1.0...package-v1.2.0) (2025-07-31)
 
 
