@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/fabiomnk/release-please-test/compare/package-v1.0.4...package-v1.1.0) (2025-08-01)
+
+
+### Features
+
+* che diventa fix ([9d1d3c2](https://github.com/fabiomnk/release-please-test/commit/9d1d3c2f0f258a31725b23be5ca990c906e25e19))
+
+
+### Bug Fixes
+
+* che rimane fix ([59b36fb](https://github.com/fabiomnk/release-please-test/commit/59b36fbd54eb02650862481d5c7eb026fc96d1ae))
+
 ## [1.0.4](https://github.com/fabiomnk/release-please-test/compare/package-v1.0.3...package-v1.0.4) (2025-08-01)
 
 
