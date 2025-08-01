@@ -24,6 +24,6 @@ jobs:
           path: "."
           token: ${{secrets.GH_PAT}}
           config-file: release-please-config.json
-          manifest-file: $${{ github.ref_name == "main" && ".release-please-manifest.json" || ".release-please-manifest-hotfixes.json" }} 
+          manifest-file: $${{ github.ref_name == 'main' && '.release-please-manifest.json' || '.release-please-manifest-hotfixes.json' }} 
           target-branch: ${{ github.ref_name }}
 
