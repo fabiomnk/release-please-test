@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.4](https://github.com/fabiomnk/release-please-test/compare/package-v1.0.3...package-v1.0.4) (2025-08-01)
+
+
+### Bug Fixes
+
+* 123 ([143cd0c](https://github.com/fabiomnk/release-please-test/commit/143cd0c6af6b7fff0a7cd142efac9e49fd5b7ddd))
+* 12314155 ([143cd0c](https://github.com/fabiomnk/release-please-test/commit/143cd0c6af6b7fff0a7cd142efac9e49fd5b7ddd))
+* 1234 ([143cd0c](https://github.com/fabiomnk/release-please-test/commit/143cd0c6af6b7fff0a7cd142efac9e49fd5b7ddd))
+* hotfix1 ([143cd0c](https://github.com/fabiomnk/release-please-test/commit/143cd0c6af6b7fff0a7cd142efac9e49fd5b7ddd))
+* workflow only bump patches if hotfix ([143cd0c](https://github.com/fabiomnk/release-please-test/commit/143cd0c6af6b7fff0a7cd142efac9e49fd5b7ddd))
+
 ## [1.0.3](https://github.com/fabiomnk/release-please-test/compare/package-v1.0.2...package-v1.0.3) (2025-07-31)
 
 
