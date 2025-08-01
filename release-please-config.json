@@ -1,8 +1,8 @@
 {
-  "versioning-strategy": "default",
   "packages": {
     ".": {
       "package-name": "package",
+      "versioning-strategy": "default",
       "release-type": "node",
       "draft": false,
       "prerelease": false,
