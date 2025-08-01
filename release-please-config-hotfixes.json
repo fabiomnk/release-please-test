@@ -1,5 +1,5 @@
 {
-  "versioning-strategy": "default",
+  "versioning-strategy": "always-bump-patch",
   "packages": {
     ".": {
       "package-name": "package",

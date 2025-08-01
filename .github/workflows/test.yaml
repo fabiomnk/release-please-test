@@ -13,12 +13,17 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      #- name: versioning-stragegy
+      #  if: ! github.ref_name == "main"
+      #  run: |
+      #    sed 's#"versioning-strategy": "default"#"versioning-strategy": "always-bump-patch"#' -i release-please-config.json
+      #    cat release-please-config.json
       - uses: googleapis/release-please-action@v4
         id: release
         with:
           path: "."
           token: ${{secrets.GH_PAT}}
           config-file: release-please-config.json
-          manifest-file: .release-please-manifest.json
+          manifest-file: $${{ github.ref_name == "main" && ".release-please-manifest.json" || ".release-please-manifest-hotfixes.json" }} 
           target-branch: ${{ github.ref_name }}
 
