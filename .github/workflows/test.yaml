@@ -1,4 +1,3 @@
-
 name: Test
 
 on:
@@ -23,7 +22,7 @@ jobs:
         with:
           path: "."
           token: ${{secrets.GH_PAT}}
-          config-file: release-please-config.json
-          manifest-file: $${{ github.ref_name == 'main' && '.release-please-manifest.json' || '.release-please-manifest-hotfixes.json' }} 
+          config-file: ${{ github.ref_name == 'main' && 'release-please-config.json' || 'release-please-config-hotfixes.json' }}
+          manifest-file: .release-please-manifest.json 
           target-branch: ${{ github.ref_name }}
 
