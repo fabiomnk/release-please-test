@@ -12,18 +12,12 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: versioning-stragegy
-        if:  github.ref_name != 'main'
-        run: |
-          sed 's#"versioning": "default"#"versioning": "always-bump-patch"#' -i release-please-config.json
-          cat release-please-config.json
       - uses: googleapis/release-please-action@v4
         id: release
         with:
           path: "."
           token: ${{secrets.GH_PAT}}
-          #config-file: ${{ github.ref_name == 'main' && 'release-please-config.json' || 'release-please-config-hotfixes.json' }}
-          config-file: release-please-config.json
+          config-file: ${{ github.ref_name == 'main' && 'release-please-config.json' || 'release-please-config-hotfixes.json' }}
           manifest-file: .release-please-manifest.json 
           target-branch: ${{ github.ref_name }}
 
