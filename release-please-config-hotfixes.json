@@ -2,7 +2,7 @@
   "packages": {
     ".": {
       "package-name": "package",
-      "versioning-strategy": "always-bump-patch",
+      "versioning": "always-bump-patch",
       "release-type": "node",
       "draft": false,
       "prerelease": false,

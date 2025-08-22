@@ -2,7 +2,7 @@
   "packages": {
     ".": {
       "package-name": "package",
-      "versioning-strategy": "default",
+      "versioning": "default",
       "release-type": "node",
       "draft": false,
       "prerelease": false,
