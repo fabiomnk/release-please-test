@@ -13,7 +13,7 @@ jobs:
       pull-requests: write
     steps:
       - name: versioning-stragegy
-        if: ! github.ref_name == "main"
+        if:  github.ref_name != "main"
         run: |
           sed 's#"versioning": "default"#"versioning": "always-bump-patch"#' -i release-please-config.json
           cat release-please-config.json
