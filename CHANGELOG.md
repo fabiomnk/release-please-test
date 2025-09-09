@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/fabiomnk/release-please-test/compare/package-v2.0.0...package-v2.0.1) (2025-09-09)
+
+
+### Bug Fixes
+
+* test-brach  ([#16](https://github.com/fabiomnk/release-please-test/issues/16)) ([67f9bcf](https://github.com/fabiomnk/release-please-test/commit/67f9bcf299ed1731a356e991bb43d4eab56d09c3))
+
 ## [2.0.0](https://github.com/fabiomnk/release-please-test/compare/package-v1.2.0...package-v2.0.0) (2025-07-31)
 
 
