@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.1](https://github.com/fabiomnk/release-please-test/compare/package-v2.0.0...package-v2.0.1) (2026-04-09)
+
+
+### Bug Fixes
+
+* remove stuff ([346515b](https://github.com/fabiomnk/release-please-test/commit/346515b05d37c06bbea0cccdd78f69323d02dc1b))
+* supercommit ([b90e2e0](https://github.com/fabiomnk/release-please-test/commit/b90e2e0a09f214e470f6173d0d380f2e69f5a8e0))
+* test-brach  ([#16](https://github.com/fabiomnk/release-please-test/issues/16)) ([67f9bcf](https://github.com/fabiomnk/release-please-test/commit/67f9bcf299ed1731a356e991bb43d4eab56d09c3))
+* Update test.js ([710ba6a](https://github.com/fabiomnk/release-please-test/commit/710ba6a166b53cb66a1019e0762a54c7e5f87b10))
+
 ## [2.0.0](https://github.com/fabiomnk/release-please-test/compare/package-v1.2.0...package-v2.0.0) (2025-07-31)
 
 
